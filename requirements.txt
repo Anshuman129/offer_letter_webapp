@@ -1,4 +1,6 @@
-flask
-docxtpl
-supabase
+Flask
+gunicorn
 python-dotenv
+docxtpl
+python-docx
+supabase
