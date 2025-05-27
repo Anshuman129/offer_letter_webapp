@@ -114,9 +114,9 @@ def form():
         letter_date = format_date_with_suffix(letter_date_raw)
 
         context = {
-            'first_name': first_name,
-            'middle_name': middle_name,
-            'last_name': last_name,
+            'first_name': first_name.strip(),
+            'middle_name': middle_name.strip(),
+            'last_name': last_name.strip(),
             'role': role,
             'email': email,
             'start_date': start_date,
